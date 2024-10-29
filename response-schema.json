@@ -1,0 +1,15 @@
+{
+    "type": "object",
+    "properties": {
+        "cache_response": {
+            "type": "boolean"
+        },
+        "response": {
+            "type": "string"
+        },
+        "status": {
+            "type": "number"
+        }
+    },
+    "required": ["cache_response", "response", "status"]
+}
